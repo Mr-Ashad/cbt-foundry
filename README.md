@@ -19,7 +19,7 @@ The system is designed to demonstrate how agent orchestration, iterative refinem
 
 
 ## Project Structure
-
+```
 cbt-foundry/
 ├── backend/
 │   └── backend_app/
@@ -38,7 +38,7 @@ cbt-foundry/
 │
 ├── .env.example
 └── requirements.txt
-
+```
 ## Tech Stack
 
 Backend
@@ -64,30 +64,31 @@ Frontend
 ## How to Run
 
 Backend
-
+```
 cd backend/backend_app
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python main.py
-
+```
 The backend will start the agent workflow and expose the required endpoints and services.
 
 Frontend
-
+```
 cd frontend/cerina-foundry-app
 npm install
 npm start
-
+```
 The React app will be available at:
+```
 http://localhost:3000
-
+```
 ## Environment Variables
 
 Copy the example file and adjust as needed:
-
+```
 cp .env.example .env
-
+```
 Add API keys or configuration values required by the backend services.
 
 ## Notes
@@ -97,5 +98,6 @@ Add API keys or configuration values required by the backend services.
 - Human oversight is a core design principle of the system.
 
 ## License
-
-MIT License (or update as needed).
+```
+MIT License (NOT ALLOWED(FULLY/PARTIALLY) FOR COMMERCIAL REPRODUCTION)
+```
