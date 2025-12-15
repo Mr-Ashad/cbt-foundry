@@ -1,6 +1,6 @@
 # CBT Foundry
 
-CBT Foundry is an AI-assisted system for drafting, reviewing, and finalizing Cognitive Behavioral Therapy (CBT)–based stress-management protocols.
+CBT Foundry is an AI-assisted automated system for drafting, reviewing, and finalizing Cognitive Behavioral Therapy (CBT)–based stress-management protocols.
 It uses a multi-agent workflow with supervision, critique, and a human-in-the-loop approval stage to ensure structured, safe, and high-quality outputs.
 
 The system is designed to demonstrate how agent orchestration, iterative refinement, and human oversight can be combined in a production-oriented AI application.
