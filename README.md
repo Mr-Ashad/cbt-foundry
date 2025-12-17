@@ -43,7 +43,9 @@ cbt-foundry/
 
 Backend
 - Python
-- Agent graph orchestration
+- LangGraph
+- FastAPI
+- SSE (Server Sent Events)
 - SQLite (for checkpoints and state)
 - MCP-compatible service interface
 
